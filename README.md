@@ -1,7 +1,7 @@
 # Google-Cloud-Notify-And-Shutdown
 There are two bash scripts.
 
-1. slackAndMailNotify.sh
+a. slackAndMailNotify.sh
 
 This bash script will help reduce your Google Cloud bills. 
 The script keeps polling the CPU Load averaged over a period of 15 minutes.
@@ -33,7 +33,7 @@ and is then compared with the threshold. Default value is 60 seconds.
 
 
 
-2. slackGcpShutDown.sh
+b. slackGcpShutDown.sh
 
 This bash script takes commands from slack and shuts down Google Cloud instances. It reduces your bills.
 You need the following libraties pre-installed
