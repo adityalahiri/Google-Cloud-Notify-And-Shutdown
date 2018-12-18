@@ -31,6 +31,8 @@ Global count increases. Default value is 0.4.
 4. Poll Time -> This is the time in seconds after which the average load is found again
 and is then compared with the threshold. Default value is 60 seconds.
 
+
+
 2. slackGcpShutDown.sh
 
 This bash script takes commands from slack and shuts down Google Cloud instances. It reduces your bills.
